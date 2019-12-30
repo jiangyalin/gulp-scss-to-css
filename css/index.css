@@ -1,0 +1,249 @@
+.g-commodity-list-index-box {
+    margin-top: 8px;
+}
+
+.g-commodity-list-index-box .u-tt {
+    display: flex;
+    padding: 0 12px;
+    width: 100%;
+    height: 52px;
+    line-height: 52px;
+    justify-content: space-between;
+}
+
+.g-commodity-list-index-box .u-tt .u-h3 {
+    font-size: 16px;
+    color: #333;
+}
+
+.g-commodity-list-index-box .u-tt .u-p {
+    font-size: 12px;
+    color: #999;
+}
+
+.g-commodity-list-index-box .u-ct {
+    display: flex;
+    padding-top: 10px;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.g-commodity-list-index-box .u-ct .u-default {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.g-commodity-list-index-box .u-ct .u-default .u-cmy {
+    display: flex;
+    padding: 0 12px 16px 12px;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.g-commodity-list-index-box .u-ct .u-default .u-cmy .u-img {
+    margin-bottom: 7px;
+    width: 166px;
+    height: 166px;
+}
+
+.g-commodity-list-index-box .u-ct .u-default .u-cmy .u-gp .u-name {
+    display: -webkit-box;
+    width: 100%;
+    height: 44px;
+    font-size: 14px;
+    color: #333;
+    line-height: 22px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.g-commodity-list-index-box .u-ct .u-default .u-cmy .u-gp .u-btn-gp {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.g-commodity-list-index-box .u-ct .u-default .u-cmy .u-gp .u-btn-gp .u-price-gp {
+    display: flex;
+    align-items: center;
+    line-height: 22px;
+}
+
+.g-commodity-list-index-box .u-ct .u-default .u-cmy .u-gp .u-btn-gp .u-price-gp .u-price {
+    padding-right: 8px;
+    font-size: 14px;
+    color: #ff0000;
+}
+
+.g-commodity-list-index-box .u-ct .u-default .u-cmy .u-gp .u-btn-gp .u-price-gp .u-sn {
+    font-size: 12px;
+    color: #999;
+    text-decoration: line-through;
+}
+
+.g-commodity-list-index-box .u-ct .u-default .u-cmy .u-gp .u-btn-gp .u-sales {
+    font-size: 12px;
+    color: #999;
+    line-height: 20px;
+}
+
+.g-commodity-list-index-box .u-ct .u-default .u-cmy .u-gp .u-btn-gp .u-icon {
+    width: 22px;
+    line-height: 38px;
+    font-size: 18px;
+}
+
+.g-commodity-list-index-box .u-ct .u-sir {
+    width: 100%;
+    display: none;
+}
+
+.g-commodity-list-index-box .u-ct[data-style-type='threeColumns'] {
+    padding-left: 12px;
+    justify-content: flex-start;
+}
+
+.g-commodity-list-index-box .u-ct[data-style-type='threeColumns'] .u-default {
+    justify-content: flex-start;
+}
+
+.g-commodity-list-index-box .u-ct[data-style-type='threeColumns'] .u-default .u-cmy {
+    margin-right: 11px;
+    padding: 0 0 10px 0;
+    width: 110px;
+}
+
+.g-commodity-list-index-box .u-ct[data-style-type='threeColumns'] .u-default .u-cmy .u-img {
+    width: 110px;
+    height: 110px;
+}
+
+.g-commodity-list-index-box .u-ct[data-style-type='threeColumns'] .u-default .u-cmy .u-gp .u-name {
+    overflow: hidden;
+    display: block;
+    width: 110px;
+    height: 22px;
+    font-size: 14px;
+    color: #333;
+    line-height: 22px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.g-commodity-list-index-box .u-ct[data-style-type='threeColumns'] .u-default .u-cmy .u-gp .u-btn-gp .u-price-gp {
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.g-commodity-list-index-box .u-ct[data-style-type='threeColumns'] .u-default .u-cmy .u-gp .u-btn-gp .u-sales {
+    display: none;
+}
+
+.g-commodity-list-index-box .u-ct[data-style-type='towLine'] {
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.g-commodity-list-index-box .u-ct[data-style-type='towLine'] .u-cmy {
+    flex-direction: row;
+    width: auto;
+    align-items: stretch;
+}
+
+.g-commodity-list-index-box .u-ct[data-style-type='towLine'] .u-cmy .u-img {
+    margin-right: 12px;
+    margin-bottom: 0;
+    width: 120px;
+    height: 120px;
+}
+
+.g-commodity-list-index-box .u-ct[data-style-type='towLine'] .u-cmy .u-gp {
+    padding-top: 5px;
+    flex: 1;
+}
+
+.g-commodity-list-index-box .u-ct[data-style-type='towLine'] .u-cmy .u-gp .u-btn-gp {
+    flex-direction: column-reverse;
+}
+
+.g-commodity-list-index-box .u-ct[data-style-type='towLine'] .u-cmy .u-gp .u-btn-gp .u-price-gp {
+    padding-top: 16px;
+    line-height: 20px;
+}
+
+.g-commodity-list-index-box .u-ct[data-style-type='towLine'] .u-cmy .u-gp .u-btn-gp .u-sales {
+    padding-right: 5px;
+    height: 34px;
+    line-height: 35px;
+}
+
+.g-commodity-list-index-box .u-ct[data-style-type='slide'] {
+    padding-left: 12px;
+    justify-content: flex-start;
+}
+
+.g-commodity-list-index-box .u-ct[data-style-type='slide'] .swiper-slide {
+    /*width: 96px;*/
+}
+
+.g-commodity-list-index-box .u-ct[data-style-type='slide'] .u-sir {
+    display: block;
+}
+
+.g-commodity-list-index-box .u-ct[data-style-type='slide'] .u-sir .u-cmy {
+    margin-right: 11px;
+    padding: 0 0 10px 0;
+    width: 96px;
+}
+
+.g-commodity-list-index-box .u-ct[data-style-type='slide'] .u-sir .u-cmy .u-img {
+    width: 96px;
+    height: 96px;
+}
+
+.g-commodity-list-index-box .u-ct[data-style-type='slide'] .u-sir .u-cmy .u-gp {
+    width: 96px;
+}
+
+.g-commodity-list-index-box .u-ct[data-style-type='slide'] .u-sir .u-cmy .u-gp .u-name {
+    overflow: hidden;
+    display: block;
+    width: 96px;
+    height: 22px;
+    font-size: 14px;
+    color: #333;
+    line-height: 22px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.g-commodity-list-index-box .u-ct[data-style-type='slide'] .u-sir .u-cmy .u-gp .u-btn-gp .u-price-gp {
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.g-commodity-list-index-box .u-ct[data-style-type='slide'] .u-sir .u-cmy .u-gp .u-btn-gp .u-price-gp .u-price {
+    padding-right: 8px;
+    font-size: 14px;
+    color: #ff0000;
+}
+
+.g-commodity-list-index-box .u-ct[data-style-type='slide'] .u-sir .u-cmy .u-gp .u-btn-gp .u-price-gp .u-sn {
+    font-size: 12px;
+    color: #999;
+    text-decoration: line-through;
+}
+
+.g-commodity-list-index-box .u-ct[data-style-type='slide'] .u-sir .u-cmy .u-gp .u-btn-gp .u-sales {
+    display: none;
+}
+
+.g-commodity-list-index-box .u-ct[data-style-type='slide'] .u-default .u-cmy {
+    display: none;
+}

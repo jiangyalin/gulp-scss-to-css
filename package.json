@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-ruby-sass": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.0"
+  }
+}
