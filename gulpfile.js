@@ -1,6 +1,5 @@
-// 获取 gulp
 const gulp = require('gulp')
-// 获取 gulp-ruby-sass 模块
+const px2rpx = require('gulp-px2rpx')
 const sass = require('gulp-sass')
 
 sass.compiler = require('node-sass');
@@ -8,11 +7,13 @@ sass.compiler = require('node-sass');
 // 编译sass
 // 在命令行输入 gulp sass 启动此任务
 gulp.task('sass', function () {
-  // return sass('scss/index.scss').on('error', err => {
-  //   console.error('Error', err.message)
-  // }).pipe(gulp.dest('css'))
   return gulp.src('scss/**/*.scss')
     .pipe(sass().on('error', sass.logError))
+    .pipe(px2rpx({
+      screenWidth: 375, // 设计稿屏幕
+      wxappScreenWidth: 750, // 微信小程序屏幕
+      remPrecision: 6 // 小数精度
+    }))
     .pipe(gulp.dest('css'));
 })
 
